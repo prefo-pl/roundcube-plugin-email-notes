@@ -12,8 +12,8 @@ window.rcmail && rcmail.addEventListener('init', function(evt) {
 		
 		let $replace = $('<div class="editor" />');
 		$replace.append($('<textarea name="content" rows="5" cols="40"></textarea>').val($content.text()));
-		$replace.append($('<button class="save">Save</button>'));
-		$replace.append($('<button class="cancel">Cancel</button>'));
+		$replace.append($('<button class="save btn btn-sm btn-primary">'+rcmail.gettext('save')+'</button>'));
+		$replace.append($('<button class="cancel btn btn-sm btn-danger">'+rcmail.gettext('cancel')+'</button>'));
 
 		$content.replaceWith($replace);
 	});
