@@ -1,0 +1,17 @@
+{
+    "name": "radialapps/banner-ics",
+    "type": "roundcube-plugin",
+    "description": "This plugin allows you to add notes to emails.",
+    "license": "MIT",
+    "version": "1.3.2",
+    "authors": [
+        {
+            "name": "Dariusz Szylko",
+            "email": "dariusz@szylko.com",
+            "role": "Lead"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}
