@@ -1,5 +1,5 @@
 {
-    "name": "radialapps/banner-ics",
+    "name": "prefo-pl/email_notes",
     "type": "roundcube-plugin",
     "description": "This plugin allows you to add notes to emails.",
     "license": "MIT",
