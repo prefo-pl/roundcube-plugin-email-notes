@@ -4,7 +4,6 @@ window.rcmail && rcmail.addEventListener('init', function(evt) {
 	$('.email_note .edit').click(function() {
 		const $container = $(this).closest('.email_note');
 
-		console.log($container.find('.content'));
 		const $content = $container.find('.content > .text');
 
 		$container.data('orig-content', $content.text());
@@ -24,7 +23,6 @@ window.rcmail && rcmail.addEventListener('init', function(evt) {
 		const $content = $container.find('.editor textarea[name="content"]');
 		const content = $content.val();
 
-		console.log($container.attr('data-message-id'));
 		window.rcmail.http_post('plugin.email_notes.save_note', {
 			message_id: $container.attr('data-message-id'),
 			note: content,
