@@ -28,3 +28,11 @@
 .email_note .edit {
 	cursor: pointer;
 }
+
+.dark-mode .email_note .content {
+	color: #fff;
+}
+.dark-mode .email_note .edit {
+	fill: #fff;
+	stroke: #fff;
+}
